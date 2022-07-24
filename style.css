@@ -18,12 +18,12 @@
   /* ESTILOS DO BANNER */
 
   .banner {
-    background: url(img/banner-bg.png) center no-repeat;
+    background: url(img/banner2.png) center no-repeat;
     background-size: cover;
     height: 90vh;
     text-align: center;
     padding: 5rem;
-    color: white;
+    color: whitesmoke;
   }
   
   .container {
@@ -33,11 +33,13 @@
   }
   
   .banner__titulo {
-    font-size: 5rem;
+    font-size: 4rem;
+    color:black;
   }
   
   .banner__subtitulo {
-    font-size: 2.3rem;
+    font-size: 2rem;
+    color: black;
   }
   
   .u-margin-bottom-peq {
@@ -45,16 +47,21 @@
   }
 
   .btn-branco{
-    color: #7E459B;
     background-color: white;
+    opacity : 0.9;
 }
 
   .btn{
     border-radius: 3rem;
     text-transform: uppercase;
     padding: 1rem 2rem;
-    font-size: 1.5rem;
     font-weight: bold;
+    
+}
+
+.texto-conheca {
+  color: 	#DB7093;
+  font-size: 1.5rem;
 }
 
 p{
@@ -67,4 +74,94 @@ p{
 
 a{
     text-decoration: none;
+}
+
+.sobre__div{
+  display: flex;
+  margin: 2.5rem;
+  margin-top: 1.5rem;
+  text-align: justify;
+  justify-content: center;
+}
+
+.sobre__titulo{
+  width: 100%;
+  font-size: 2rem;
+  color: rgb(77, 76, 76);
+  text-align: left;
+}
+
+.sobre__descricao-div{
+  display: flex;
+  width: 40%;
+  display: inline-block;
+  line-height: 1.5;
+
+}
+
+.sobre__descricao-texto{
+  font-size: 1.2rem;
+}
+
+.sobre__descricao-destaque{
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.sobre__habilidades-div{
+  display: flex;
+  width: 40%;
+  display: inline-block;
+  margin-left: 10rem;
+}
+
+.sobre__habilidades-titulo{
+  font-size: 2rem;
+  color: rgb(77, 76, 76);
+}
+
+.sobre__habilidades-lista{
+  padding-left: 2rem;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+
+.btn-roxo{
+  color: #DB7093;
+  border: 1px solid #DB7093;
+}
+
+ul{
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+/* SEÇÃO REDES SOCIAIS */
+
+.footer{
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.redes__sociais-item{
+  display: inline-block;
+  width: 20%;
+  background-color: #DB7093;
+  padding: 2rem 0;
+  margin: 0 1rem;
+  text-align: center;
+  color: antiquewhite;
+}
+
+.redes__sociais-img{
+  margin-bottom: 0.5rem;
+}
+
+h3{
+  font-size: 2.5rem;
 }
