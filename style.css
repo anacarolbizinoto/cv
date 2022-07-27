@@ -15,6 +15,19 @@
     margin-inline-end: 0px;
   }
   
+
+/* RELÓGIO */
+
+#relogio {
+  background-size: cover;
+  background-color: black;
+  color: antiquewhite;
+  font-size: 25px;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
   /* ESTILOS DO BANNER */
 
   .banner {
@@ -78,7 +91,7 @@ a{
 
 .sobre__div{
   display: flex;
-  margin: 2.5rem;
+  margin: 2.0rem;
   margin-top: 1.5rem;
   text-align: justify;
   justify-content: center;
@@ -152,7 +165,7 @@ ul{
   display: inline-block;
   width: 20%;
   background-color: #DB7093;
-  padding: 2rem 0;
+  padding: 1rem 0;
   margin: 0 1rem;
   text-align: center;
   color: antiquewhite;
